@@ -37,25 +37,25 @@ function User() {
       {
         type: "input",
         message:
-          "What text would you like you logo to display? (Enter up to three characters)",
+          "What text do you want? (limit to 3 chars)",
         name: "text",
       },
       {
         type: "input",
         message:
-          "Choose text color (Enter color keyword OR a hexadecimal number)",
+          "Text color [hex|name]",
         name: "textColor",
       },
       {
         type: "list",
-        message: "What shape would you like the logo to render?",
-        choices: ["Triangle", "Square", "Circle"],
+        message: "Pick your shape",
+        choices: ["circle", "square", "triangle"],
         name: "shape",
       },
       {
         type: "input",
         message:
-          "Choose shapes color (Enter color keyword OR a hexadecimal number)",
+          "What background color do you want [hex|name] ? ",
         name: "shapeBackgroundColor",
       },
     ])
